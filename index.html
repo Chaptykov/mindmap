@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mindmap</title>
+
+	<link rel="stylesheet" href="src/mindmap.css">
+</head>
+<body>
+
+<div class="mindmap">
+
+	<ol class="children children_leftbranch">
+		<li class="children__item">
+			<div class="node">
+				<div class="node__text">Цвета</div>
+				<input type="text" class="node__input">
+			</div>
+			<ol class="children">
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">Желтый</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">Синий</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">Красный</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+			</ol>
+		</li>
+		<li class="children__item">
+			<div class="node">
+				<div class="node__text">node</div>
+				<input type="text" class="node__input">
+			</div>
+			<ol class="children">
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+			</ol>
+		</li>
+		<li class="children__item">
+			<div class="node">
+				<div class="node__text">node</div>
+				<input type="text" class="node__input">
+			</div>
+			<ol class="children">
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+			</ol>
+		</li>
+	</ol>
+
+	<div class="node node_root">
+		<div class="node__text">node</div>
+		<input type="text" class="node__input">
+	</div>
+
+	<ol class="children children_rightbranch">
+		<li class="children__item">
+			<div class="node">
+				<div class="node__text">node</div>
+				<input type="text" class="node__input">
+			</div>
+			<ol class="children">
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+			</ol>
+		</li>
+		<li class="children__item">
+			<div class="node">
+				<div class="node__text">node</div>
+				<input type="text" class="node__input">
+			</div>
+			<ol class="children">
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+			</ol>
+		</li>
+		<li class="children__item">
+			<div class="node">
+				<div class="node__text">node</div>
+				<input type="text" class="node__input">
+			</div>
+			<ol class="children">
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+				<li class="children__item">
+					<div class="node">
+						<div class="node__text">node</div>
+						<input type="text" class="node__input">
+					</div>
+				</li>
+			</ol>
+		</li>
+	</ol>
+</div>
+
+<script src="libs/jquery/jquery.js"></script>
+<script src="dist/mindmap.min.js"></script>
+
+<script>
+
+$(function(){
+	$('.mindmap').mindmap();
+});
+
+</script>
+
+</body>
+</html>
